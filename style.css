@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background: #fff;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(/images/tech2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header .menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+header .menu a {
+    display: inline-block;
+    padding: 15px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+header .menu a:hover {
+    text-decoration: underline;
+}
+
+header .contenedor-textos-header {
+    margin: 120px 0;
+    text-align: center;
+}   
+
+header .contenedor-textos-header .titulo-header {
+    font-size: 80px;
+    color:#fff;
+    margin-bottom: 5px;
+}
+
+header .contenedor-textos-header .linea {
+    width: 600px;
+    margin: auto;
+    height: 3px;
+    background: #15a4fa;
+    margin-bottom: 20px;
+}
+
+header .contenedor-textos-header .subtitulo-header {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+header .contenedor-textos-header .call-to-action {
+    display: inline-block;
+    padding: 15px 10px;
+    border: 1px solid #15a4fa;
+    text-align: center;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 18px;
+}
+
+header .contenedor-textos-header .call-to-action:hover {
+    background: #15a4fa;
+    color: #fff;
+}
+
+/* main */
+
+main .acerca-de {
+    background: #f0f3f5;
+    padding: 30px 0;
+    text-align: center;
+}
+
+main .acerca-de .contenedor-textos-acerca .titulo-acerca {
+    font-size: 24px;
+    font-weight: 900;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+
+main .acerca-de .contenedor-textos-acerca .parrafo-acerca {
+    color: #999;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
